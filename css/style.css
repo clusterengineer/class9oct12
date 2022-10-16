@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Home-And-Work;
+  src: url('../fonts/Home-And-Work.otf') format('opentype');
+  font-weight: thin;
+  font-style: normal;
+}
+
+body {
+  background-color: lightblue;
+}
+
+ul {
+  font-weight: bolder;
+}
+
+h1 {
+  color: grey;
+  font-family: Home-And-Work;
+  font-size: 60pt;
+}
+
+
+footer {
+  font-size: 10px;
+}
+
+table {
+  border-color: green;
+  border-collapse: collapse;
+}
+
+.para {
+  font-family: sans-serif;
+  color: red;
+}
+
+#list {
+  font-size: 14pt;
+}
+
+.box {
+  border: 2px;
+  margin: 2px;
+  padding: 3px;
+}
